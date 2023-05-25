@@ -1,3 +1,5 @@
+package java;
+
 public class JDBCSingleton {
     private static JDBCSingleton jdbc;
 

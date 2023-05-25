@@ -1,3 +1,5 @@
+package java;
+
 public abstract class AbstractFactory {
     public abstract Bank getBank(String bank);
 

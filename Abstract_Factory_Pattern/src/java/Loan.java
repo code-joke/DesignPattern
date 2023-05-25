@@ -1,3 +1,5 @@
+package java;
+
 public abstract class Loan {
     public double rate;
 

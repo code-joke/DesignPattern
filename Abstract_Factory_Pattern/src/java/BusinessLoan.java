@@ -1,4 +1,6 @@
-public class HomeLoan extends Loan {
+package java;
+
+public class BusinessLoan extends Loan {
 
     @Override
     void getInterestRate(double r) {

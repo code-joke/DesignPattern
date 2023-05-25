@@ -1,3 +1,5 @@
+package java;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,14 +10,14 @@ public class Main {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print("Enter the name of Bank from where you want to take loan amount: ");
+        System.out.print("Enter the name of java.Bank from where you want to take loan amount: ");
         String bankName=br.readLine();
 
         System.out.print("\n");
         System.out.print("Enter the type of loan e.g. home loan or business loan or education loan : ");
 
         String loanName=br.readLine();
-        AbstractFactory bankFactory = FactoryCreator.getFactory("Bank");
+        AbstractFactory bankFactory = FactoryCreator.getFactory("java.Bank");
         Bank b=bankFactory.getBank(bankName);
 
         System.out.print("\n");
@@ -33,7 +35,7 @@ public class Main {
         System.out.print("\n");
         System.out.println("you are taking the loan from "+ b.getBankName());
 
-        AbstractFactory loanFactory = FactoryCreator.getFactory("Loan");
+        AbstractFactory loanFactory = FactoryCreator.getFactory("java.Loan");
         Loan l = loanFactory.getLoan(loanName);
         l.getInterestRate(rate);
         l.calculateLoanPayment(loanAmount,years);

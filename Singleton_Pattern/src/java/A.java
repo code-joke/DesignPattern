@@ -1,4 +1,4 @@
-/**
+package java; /**
  * How to create Singleton design pattern?
  * To create the singleton class, we need to have static member of class, private constructor and static factory method.
  *
@@ -14,7 +14,7 @@
 
 public class A {
 
-    private static A obj = new A(); // A instance will be created at load time
+    private static A obj = new A(); // java.A instance will be created at load time
 
     private A() {
 

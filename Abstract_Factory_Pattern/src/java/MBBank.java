@@ -1,8 +1,10 @@
-public class VPBank implements Bank {
+package java;
+
+public class MBBank implements Bank {
     private final String BNAME;
 
-    public VPBank() {
-        BNAME = "VPBank";
+    public MBBank() {
+        BNAME = "java.MBBank";
     }
 
     @Override
