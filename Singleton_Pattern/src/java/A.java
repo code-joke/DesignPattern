@@ -27,4 +27,5 @@ public class A {
     public void doSomething() {
         // write your code
     }
+
 }
