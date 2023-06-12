@@ -18,4 +18,5 @@ public class BankFactory extends AbstractFactory {
     public Loan getLoan(String loan) {
         return null;
     }
+
 }
