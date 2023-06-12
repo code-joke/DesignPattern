@@ -22,4 +22,5 @@ public class Main {
         p.getRate();
         p.calculateBill(units);
     }
+
 }
